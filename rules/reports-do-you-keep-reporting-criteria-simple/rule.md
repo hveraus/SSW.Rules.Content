@@ -10,7 +10,8 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+  - do-you-place-your-slicers-consistently
 ---
 
 1. Have Selection for filters e.g. Date Ranges
@@ -22,4 +23,4 @@ redirects: []
 
 <!--endintro-->
 
-![Figure: Graph Interface](../../assets/GraphInterface.gif)
+![Figure: Graph Interface](/GraphInterface.gif)

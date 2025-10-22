@@ -9,8 +9,8 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
-  - summary-recording-sprint-reviews
   - monthly-stakeholder-video
+  - summary-recording-sprint-reviews
   - sprint-review-retro-email
   - scrum-master-do-you-schedule-the-3-meetings
   - do-you-make-your-team-meetings-easy-to-find
@@ -56,6 +56,32 @@ If there are additional stakeholders, make sure they get called in for the summa
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
+**When you ping stakeholders, include a message like this**:
+
+Hey {{ PROJECT NAME }} Stakeholders:
+
+I'm recording the current meeting so I can get the Copilot stats later.
+
+I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
+
+The stakeholders are:
+
+{{ STAKEHOLDER NAME }},
+
+{{ STAKEHOLDER NAME }},
+
+{{ STAKEHOLDER NAME }}
+
+Let me know if you want anyone else added.
+
+{{ SCREENSHOT OF CURRENT ATTENDEE }}
+:::
+
+::: greybox
+**Tip**:Ask for Copilot AI images before the summary meeting to include in the summary.
+:::
+
+::: greybox
 **Tip**:Stakeholders often have a lot on their plate... Make their life easier: Rename the group chat so it's clear which project's review is about to start
 :::
 
@@ -64,8 +90,6 @@ Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginni
 :::
 
 ::: good
-
-
 
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
 

@@ -24,6 +24,7 @@ index:
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error
 - definition-of-done
+- quality-do-you-only-deploy-after-a-test-please
 - acceptance-criteria
 - ui-ux-test-please
 - fix-bugs-first
@@ -47,7 +48,7 @@ index:
 - do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
 - cms-solutions
 - do-you-manage-your-papers
-- do-you-avoid-reviewing-performance-without-metrics
+- avoid-reviewing-performance-without-metrics
 - do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
 - do-you-know-you-should-always-use-a-source-control-system
 - do-you-know-what-to-look-out-for-when-signing-legal-documents

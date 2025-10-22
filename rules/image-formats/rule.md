@@ -117,6 +117,32 @@ JPG is best suited for photographs and complex images where rich colors and grad
 ![Figure: Good example – Compressed JPG (28k)](image-formats-good-compressed.jpg)  
 :::
 
+## WebP
+
+Stands for "Web Picture format".
+
+WebP is a modern image format developed by Google that provides superior compression and quality compared to JPG and PNG, making it ideal for most web use cases.
+
+✅ **Advantages**
+
+* **Smaller file sizes** – WebP images are typically 25–35% smaller than equivalent JPGs or PNGs, which improves website loading speed and reduces bandwidth usage
+* **Supports transparency** – Like PNG, WebP supports alpha transparency (with or without lossy compression)
+* **Supports animation** – Like GIF, WebP can store simple animations, but with better compression and quality
+* **Wide browser support** – All major browsers (Chrome, Edge, Firefox, Safari, Opera) now support WebP, making it safe for production use
+
+❌ **Disadvantages**
+
+* **Editing compatibility** – While support has improved, some older design tools and workflows may not fully support WebP
+* **Fallbacks may be needed** – If supporting legacy browsers (e.g., IE11), you may still need a PNG/JPG fallback
+* **Processing overhead** – Converting to WebP can take slightly longer compared to JPG/PNG during build or export
+
+### Best use cases
+
+* Photographs (as a smaller, high-quality alternative to JPG)
+* Graphics with transparency (as a smaller alternative to PNG)
+* Animated graphics (as a smaller alternative to GIF)
+* General-purpose web images where speed and optimization matter
+
 ## WebM
 
 Stands for "Web Media File Format".
@@ -191,10 +217,15 @@ While BMPs offer high-quality images, their large file sizes and lack of compres
 
 Understanding the strengths and weaknesses of each format can help you make informed decisions when adding images to your website. Here are some general guidelines:
 
-* **SVGs** for graphics that need to be scalable and maintain clarity across all screen sizes, like logos and icons
-* **PNGs** when you need transparency or when dealing with images that require high-quality, lossless compression
-* **JPGs** for photographs and other complex images where a balance between quality and file size is important
-* **GIFs** for simple animations, low-color images, or when you need a format that supports basic transparency. GIFs are a go-to for creating engaging, lightweight animations and small graphics
+| **Scenario** | **Best Format** | **⭐ Rating** | **Why** | **Notes** |
+|---------------|----------------|---------------|----------|-----------|
+| **Logos, icons, simple illustrations** | **SVG** | ⭐⭐⭐⭐ | Scales infinitely without losing quality; small file size for simple graphics | Avoid for complex or photo-like images (large file sizes) |
+| **General-purpose optimized web images (with or without transparency)** | **WebP** | ⭐⭐⭐⭐ | Smaller file size (25–35% smaller than JPG/PNG); supports transparency and animation | May require fallback for older browsers or editing tools |
+| **High-quality short videos or animations (with sound)** | **WebM** | ⭐⭐⭐⭐ | Superior compression; supports audio; smooth playback | Limited support in older browsers; requires more setup |
+| **Photographs or complex images with gradients** | **JPG** | ⭐⭐⭐ | Smaller file size with lossy compression; ideal for detailed images | No transparency; quality degrades after multiple saves |
+| **Images requiring transparency (e.g., logos over backgrounds)** | **PNG** | ⭐⭐ | Supports transparent backgrounds; lossless quality; good for sharp edges and text | Larger file size than JPG; not good for large, complex images |
+| **Simple animations, memes, or low-color loops** | **GIF** | ⭐ | Universally supported; easy to use for short loops | Large file sizes; limited to 256 colors; poor for photo-like images |
+| **High-quality still images (not for web)** | **BMP** | 🚫 | High quality but uncompressed | ❌ Avoid for web — very large file sizes and poor performance |
 
 ::: info
 **Tip:** Regardless of the format you choose, [optimizing your images](optimize-your-images) is key to ensuring fast loading times and a smooth user experience.
